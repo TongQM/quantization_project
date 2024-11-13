@@ -30,7 +30,7 @@ def evaluate_model(model, dataloader, device):
     return top1_acc, top5_acc
 
 def main():
-    data_dir = "/Users/zhihanli/Desktop/HW3"
+    data_dir = ".."
     batch_size = 64
     num_workers = 0
 
